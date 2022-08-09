@@ -18,7 +18,7 @@ def index():
 def scrape():
     final_mars_data = mongo.db.final_mars_data
     final_mars_data = scrape_mars.scrape_all()
-    final_mars_data.update({},final_mars_data, upsert=True)
+    final_mars_data.update({},{"$set":final_mars_data}, upsert=True)
     return redirect('/', code=302)
     
 if __name__ == "__main__":

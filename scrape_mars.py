@@ -102,19 +102,19 @@ def scrape():
 
     
      final_mars_data = {
-"latest_title": news_title,
-"latest_paragraph" : news_p,
-"featured_image": featured_img_url,
-"comparison_table": mars_df,
-"hemisphere_scrape": hemisphere_image_urls,
-"title1": title1,
-"title2": title2,
-"title3": title3,
-"title4": title4,
-"image1": image1,
-"image2": image2,
-"image3": image3,
-"image4": image4
+     "latest_title": news_title,
+     "latest_paragraph" : news_p,
+     "featured_image": featured_img_url,
+     "comparison_table": mars_df,
+     "hemisphere_scrape": hemisphere_image_urls,
+     "title1": title1,
+     "title2": title2,
+     "title3": title3,
+     "title4": title4,
+     "image1": image1,
+     "image2": image2,
+     "image3": image3,
+     "image4": image4
 
 
 
