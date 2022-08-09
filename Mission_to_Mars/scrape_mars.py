@@ -37,7 +37,7 @@ def scrape():
 
 
 
-    
+
     
      url2 = "https://marshemispheres.com/"
      browser.visit(url2)
@@ -119,5 +119,6 @@ def scrape():
 
 
 }
+     
      return final_mars_data
  
