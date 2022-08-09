@@ -17,7 +17,7 @@ def echo():
 @app.route("/scrape")
 def scrape():
     
-    final_mars_data = scrape_mars.scrape_all()
+    final_mars_data = scrape_mars.scrape()
     mongo.db.final_mars_data.update_one({},{"$set":final_mars_data}, upsert=True)
     return redirect('/', code=302)
     
